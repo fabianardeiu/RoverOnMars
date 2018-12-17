@@ -4,7 +4,8 @@ using System.Text;
 
 namespace RoverOnMars.Logic.Commands
 {
-    class BaseCommand
+    public class BaseCommand
     {
+        public ProgramData ProgramData { get; set; }
     }
 }
